@@ -1,8 +1,7 @@
 import React from "react";
 
 import styles from "./Education.module.css";
-import schoolIcon from "../../Assets/education/schoolIcon.jpg";
-import collegeIcon from "../../Assets/education/collegeIcon.png";
+import { getImageUrl } from "../../utils";
 
 export const Education = () => {
   return (
@@ -13,7 +12,9 @@ export const Education = () => {
       </div>
       <ul className={styles.educationList}>
         <li className={styles.educationItem}>
-          <img src={schoolIcon} alt="School Icon" />
+          <img
+          src = "/ruchi/Assets/education/schoolIcon.jpg" 
+          alt="School Icon" />
           <div>
             <h3>High School</h3>
             <p>R.L.S.C.S.V.M.I.C., Jaspur,, 2019 - 2020</p>
@@ -21,7 +22,9 @@ export const Education = () => {
           </div>
         </li>
         <li className={styles.educationItem}>
-          <img src={schoolIcon} alt="School Icon" />
+          <img
+          src = "/ruchi/Assets/education/schoolIcon.jpg" 
+          alt="School Icon"/>
           <div>
             <h3>Intermediate School</h3>
             <p>R.L.S.C.S.V.M.I.C., Jaspur,, 2021 - 2022</p>
@@ -29,7 +32,9 @@ export const Education = () => {
           </div>
         </li>
         <li className={styles.educationItem}>
-          <img src={collegeIcon} alt="College Icon" />
+          <img
+          src="/ruchi/Assets/education/collegeIcon.png" 
+          alt="College Icon" />
           <div>
             <h3>Bachelor of Technology</h3>
             <p>Graphic Era Hill University, Computer Science, 2022 - 2026</p>
