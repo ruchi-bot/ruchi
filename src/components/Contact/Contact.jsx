@@ -13,20 +13,20 @@ export const Contact = () => {
       <ul className={styles.links}>
         <li className={styles.link}>
           <img
-            src="/ruchi/Assets/contact/emailIcon.png" 
+            src={getImageUrl("contact/emailIcon.png")}
             alt="Email icon"/>
           <a href="mailto:ruchisaini2471@gmail.com">ruchisaini2471@gmail.com</a>
         </li>
         <li className={styles.link}>
           <img
-            src="/ruchi/Assets/contact/linkedinicon.png" 
+            src={getImageUrl("contact/linkedinicon.png")}
             alt="LinkedIn icon"
           />
            <a href="https://www.linkedin.com/in/ruchi-saini-932431262/">https://www.linkedin.com/in/ruchi-saini-932431262/</a>
         </li>
         <li className={styles.link}>
           <img
-          src="/ruchi/Assets/contact/githubIcon.png" 
+          src={getImageUrl("contact/githubIcon.png")}
             alt="GitHub icon"
           />
           <a href="https://github.com/ruchi-bot">https://github.com/ruchi-bot</a>

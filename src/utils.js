@@ -1,3 +1,3 @@
 export const getImageUrl = (path) => {
-    return new URL(`/Assets/${path}`, import.meta.url).href;
+    return new URL(`/ruchi/assets/${path}`, import.meta.url).href;
   };

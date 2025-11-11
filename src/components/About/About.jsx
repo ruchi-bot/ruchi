@@ -9,18 +9,13 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          //src={getImageUrl("about/aboutImage.png")}
-          //alt="Me sitting with a laptop"
-          src="/Assets/about/aboutImage.png" 
+          src={getImageUrl("about/aboutImage.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img //src={getImageUrl("about/cursorIcon.png")} //alt="Cursor icon" 
-            src="/Assets/about/cursorIcon.png"
-            alt="Cursor icon" 
-            />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               
               <p>
@@ -29,10 +24,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img //src={getImageUrl("about/serverIcon.png")} //alt="Server icon" 
-            // 
-            src="/Assets/about/serverIcon.png"
-            alt="Server icon"/>
+            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon"/>
             <div className={styles.aboutItemText}>
               
               <p>

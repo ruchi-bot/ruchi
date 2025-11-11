@@ -13,7 +13,7 @@ export const Education = () => {
       <ul className={styles.educationList}>
         <li className={styles.educationItem}>
           <img
-          src = "/ruchi/Assets/education/schoolIcon.jpg" 
+          src={getImageUrl("education/schoolIcon.jpg")}
           alt="School Icon" />
           <div>
             <h3>High School</h3>
@@ -23,7 +23,7 @@ export const Education = () => {
         </li>
         <li className={styles.educationItem}>
           <img
-          src = "/ruchi/Assets/education/schoolIcon.jpg" 
+          src={getImageUrl("education/schoolIcon.jpg")}
           alt="School Icon"/>
           <div>
             <h3>Intermediate School</h3>
@@ -33,7 +33,7 @@ export const Education = () => {
         </li>
         <li className={styles.educationItem}>
           <img
-          src="/ruchi/Assets/education/collegeIcon.png" 
+          src={getImageUrl("education/collegeIcon.png")}
           alt="College Icon" />
           <div>
             <h3>Bachelor of Technology</h3>

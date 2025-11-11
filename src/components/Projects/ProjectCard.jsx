@@ -9,7 +9,7 @@ export const ProjectCard = ({
   return (
     <div className={styles.container}>
       <img
-       src="/ruchi/Assets/projects/project.png" 
+       src={getImageUrl("projects/project.png")}
        alt="Project Icon"
         className={styles.image}
       />
